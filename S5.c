@@ -2,7 +2,7 @@
 
 int main(){
     int max;
-    float sum = 0;
+    double sum = 0;
     double negpos = 1.0;
     scanf("%d",&max);
     for(int i=2;i<=max;i+2){

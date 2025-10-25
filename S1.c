@@ -2,8 +2,8 @@
 
 int main(){
     int max;
-    float sum = 1;
-    float negpos = -1.0;
+    double sum = 1;
+    double negpos = -1.0;
     scanf("%d",&max);
     for(int i=2;i<=max;i++){
         sum += negpos/(i*i);
